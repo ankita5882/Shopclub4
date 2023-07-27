@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  build:
+  SonarQube:
     name: SonarQube Scan
     runs-on: ubuntu-latest
     steps:
